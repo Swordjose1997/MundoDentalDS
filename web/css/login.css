@@ -1,0 +1,39 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.l{
+    flex-direction: column;
+ 
+    background-color: #3279b6;
+    height: 100%;
+
+  border-radius: 40px 0px 0px 10px;
+}
+.container-fluid{
+  display: flex;
+  align-items: stretch;
+  height: 400px;
+}
+.contenedor{
+    height: 100vh;
+    
+}
+.row{
+    width: 600px;
+    
+    
+    border-radius: 40px;
+}
+.log{
+    height: 100%;
+    border: 5px solid #3279b6;
+  border-radius: 0px 10px 40px 0px;
+}
+div> h1, div >h3{
+    color : white;
+    
+}
