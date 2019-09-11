@@ -4,6 +4,9 @@
     <link href="../css/styles.css" rel="stylesheet" type="text/css"/>
     <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
 </head>
+<div class="logo">
+    <h1>Logo</h1>
+</div>
 <div class="list-group  menu">
     <a href="#" class="list-group-item">Inicio</a>
     <a href="#" class="list-group-item">Pacientes</a>
