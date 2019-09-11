@@ -27,7 +27,7 @@
                             <h3>Datos del Paciente</h3>
                         </div>
                         <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            Agregar Paciente
+                            Agregar Paciente hola
                         </button>
                     </div>
 
