@@ -9,9 +9,9 @@
 </div>
 
 <div class="list-group  menu">
-    <a href="../index.jsp" id="link1" class="list-group-item">Inicio</a>
-    <a href="pacientes.jsp" class="list-group-item">Pacientes</a>
-    <a href="#" class="list-group-item">Citas</a>
+    <a href="index.jsp" id="link1" class="list-group-item">Inicio</a>
+    <a href="html/pacientes.jsp" class="list-group-item">Pacientes</a>
+    <a href="" class="list-group-item">Citas</a>
     <a href="#" class="list-group-item">Consultas</a>
     <a href="#" class="list-group-item">Ventas</a>
     <a href="#" class="list-group-item">Abonos</a>

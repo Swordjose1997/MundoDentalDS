@@ -9,9 +9,18 @@
     width:15%;
     margin: 0px;  
  
+    overflow: auto;
 }
 
-
+.list-group-item, header, #sidebar{
+    color: white;
+    background-color: #007c91;
+}
+.list-group-item:hover{
+    color: #007c91;
+    background-color: white;
+    text-decoration: none;
+}
 #rightSideWrapper {
     /*Strictly Necessary */
     width:85%; 
@@ -24,15 +33,16 @@
 header {
     /*Strictly Necessary */
     position: fixed;
-    width: 100%;	
-    height: 85px;
-    background: lightSalmon;
-    top: 0px;
+    width: 85%;	
+    height: 50px;
     z-index: 3;
+}
+.logo{
+    height: 50px;
 }
 
 .ContentBox{
-    margin-top: 100px; /*The height of the   header*/
+    margin-top: 50px; /*The height of the   header*/
     display:flex;
     flex-flow: row wrap;
 } 
@@ -41,8 +51,8 @@ main, section, footer {
     /*Aesthetics*/
     background: lightgray; 
     border-radius: 7px; 
-    margin: 5px; 
-    padding: 20px;
+    margin: 3px; 
+    padding: 25px;
 }
 main {
     /*Strictly Necessary */
