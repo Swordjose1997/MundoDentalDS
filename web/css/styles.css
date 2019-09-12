@@ -27,7 +27,7 @@
     float: right;
 
     /*Aesthetics*/
-    background: black;	
+    /*background: black;*/	
 }
 
 header {
@@ -49,7 +49,7 @@ header {
 
 main, section, footer {
     /*Aesthetics*/
-    background: lightgray; 
+    //background: lightgray; 
     border-radius: 7px; 
     margin: 3px; 
     padding: 25px;
@@ -67,6 +67,13 @@ section {
     flex: 0 1 100%;
 
 }
+.j {
+    /*Aesthetics*/
+    //background: lightgray;  
+    margin: 0px; 
+    padding: 2px;
+    border-radius: 0px;
+}
 
 footer {
     /*Strictly Necessary */
@@ -77,4 +84,28 @@ footer {
 
 .form-check{
     position: relative;
+}
+.conte1{
+    width: 100%;
+    display: flex;
+}
+.div{
+    border: 2px solid black;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.icon{
+    font-size: 70px;
+    padding: 15px;
+}
+.icon:hover{
+    transform: scale(0.8);
+    transition:all .5s ease;
+}
+.div:hover{
+    transition: all 1s ease;
+    background-color:rgb(0, 255, 0.5);
 }

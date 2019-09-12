@@ -3,6 +3,8 @@
 <head>
     <link href="../css/styles.css" rel="stylesheet" type="text/css"/>
     <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/styleinicio.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/fontawesome.min.css" rel="stylesheet" type="text/css"/>
 </head>
 <div class="logo">
     <h1>Logo</h1>
