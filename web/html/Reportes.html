@@ -57,16 +57,46 @@
                         </div>
                     </div>
                     <div class="contenedorBotones">
-                        <button>Ventas</button>
-                        <button>Existencias Productos</button>
-                        <button>Pacientes atendidos</button>
-                        <button>Ventas por doctor</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Ventas</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Existencias Productos</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Pacientes atendidos</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Ventas por doctor</button>
                     </div>
                     <div class="contenedorBotones">
-                        <button>Ventas por tratamiento</button>
-                        <button>Tratamientos realizados</button>
-                        <button>Ventas por sucursal</button>
-                        <button>Membresias</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Ventas por tratamiento</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Tratamientos realizados</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Ventas por sucursal</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Membresias</button>
+                    </div>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Establesca las fechas para los datos del reporte</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="recipient-name" class="col-form-label">De la fecha</label>
+                                            <input type="date" class="form-control" id="recipient-name">
+                                            <label for="recipient-name" class="col-form-label">hasta la fecha</label>
+                                            <input type="date" class="form-control" id="recipient-name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="message-text" class="col-form-label">Clinica</label>
+                                            <input type="txt">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                    <button type="button" class="btn btn-primary">Generar</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </main>
 
