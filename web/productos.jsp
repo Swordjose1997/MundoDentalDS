@@ -77,11 +77,11 @@
                                     <div class="form-row">
                                         <div class="form-group col-md-6">
                                             <label for="txtNom">Nombre</label>
-                                            <input type="text" class="form-control" name="txtNombreProducto" id="txtNom" value="${producto.nombre}">
+                                            <input type="text" class="form-control" name="txtNombreProducto" required="" id="txtNom" value="${producto.nombre}">
                                         </div>
                                         <div class="form-group col-md-6">
                                             <label for="txtApe">Detalle del Producto</label>
-                                            <input type="text" class="form-control" name="txtDetalleProducto" id="txtApe" value="${producto.detalleProducto}" >
+                                            <input type="text" class="form-control" name="txtDetalleProducto" required="" id="txtApe" value="${producto.detalleProducto}" >
                                         </div>
                                     </div>
                                     <div class="form-group">

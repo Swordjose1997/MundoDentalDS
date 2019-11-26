@@ -75,7 +75,7 @@
                                             </div>
                                             <div class="form-group col-md-6">
                                                 <label for="txtApe">Rol</label>
-                                                <input type="text" class="form-control" name="txtRol" id="txtApe" value="${roles.rol}" >
+                                                <input type="text" class="form-control" required="" name="txtRol" id="txtApe" value="${roles.rol}" >
                                             </div>
                                         </div>
                                 </div>

@@ -71,11 +71,11 @@
                                         <div class="form-row">
                                             <div class="form-group col-md-6">
                                                 <label for="txtNom">Nombres</label>
-                                                <input type="text" class="form-control" name="txtNom" id="txtNom" value="${paciente.nombres}">
+                                                <input type="text" class="form-control" required="" name="txtNom" id="txtNom" value="${paciente.nombres}">
                                             </div>
                                             <div class="form-group col-md-6">
                                                 <label for="txtApe">Apellidos</label>
-                                                <input type="text" class="form-control" name="txtApe" id="txtApe" value="${paciente.apellidos}" >
+                                                <input type="text" class="form-control" required="" name="txtApe" id="txtApe" value="${paciente.apellidos}" >
                                             </div>
                                         </div>
                                         <div class="form-group">
@@ -89,7 +89,7 @@
                                             </div>
                                             <div class="form-group col-md-6">
                                                 <label for="txtTel2">Telefono</label>
-                                                <input type="text" class="form-control" name="txtTel" id="txtTel2" value="${paciente.telefono}">
+                                                <input type="number" class="form-control" name="txtTel" id="txtTel2" value="${paciente.telefono}">
                                             </div>
                                         </div>
                                         <div class="form-group">
@@ -107,7 +107,7 @@
                                 </div>
                                 <div class="modal-footer">
                                     <button type="submit" class="btn btn-primary" data-dismiss="modal"><i class="fas fa-ban"></i> Cancelar</button>
-                                    <a href="ServletPacientes?" onclick="javascript: return window.history.back()">Regresar</a>
+                                    <a href="SPacientes?" onclick="javascript: return window.history.back()">Regresar</a>
                                     <button type="submit" class="btn btn-primary"><i class="fas fa-save"></i> Guardar</button>
                                 </div>
                             </div>

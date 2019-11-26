@@ -38,6 +38,9 @@ public class Operaciones {
     public static void commit() throws SQLException {
         conexion.getConexion().commit();
     }
+     public static void autoCommit() throws SQLException {
+        conexion.getConexion().setAutoCommit(false);
+    }
 
     public static void rollback() throws SQLException {
         conexion.getConexion().rollback();

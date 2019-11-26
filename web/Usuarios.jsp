@@ -79,7 +79,7 @@
                                     <div class="form-row">
                                         <div class="form-group col-md-6">
                                             <label for="txtNom">Contraseña</label>
-                                            <input type="text" class="form-control" name="txtContrasena" id="txtNom" value="${usuario.contrasena}">
+                                            <input type="password" class="form-control" name="txtContrasena" id="txtNom" value="${usuario.contrasena}">
                                         </div>
                                     </div>
                                     <div class="form-group">
